@@ -1,7 +1,7 @@
 <div class="row mt-3">
     <div class="col-md-4 offset-md-4">
         <div class="card">
-        <div class="card-header" style="color: white; background: #0d6efd";><h5>REGISTRASI</h5></div>
+        <div class="card-header" style="color: white; background: #332C39";><h5>REGISTRASI</h5></div>
            
             <div class="card-body">
                 <form action="" method="POST">
@@ -31,7 +31,7 @@
 
             </div>
             <div class="card-footer">
-                <button type="submit" name="kirim" class="btn btn-primary">DAFTAR</button>
+                <button type="submit" name="kirim" class="btn btn-secondary" style="width: 465px; display:flex; justify-content:center;" >DAFTAR</button>
                 <p>Sudah punya akun? Login <a href="index.php?page=login">disini!</a></p>
             </div>
             </form>

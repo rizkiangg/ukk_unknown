@@ -8,11 +8,11 @@
     <title>Aplikasi Pengaduan Masyarakat</title>
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 </head>
-<body style="background: url(assets/img/bm.jpg); background-size: cover;"> </body>
+<body style="background: url(assets/img/pxfuel.jpg); background-size: cover;"> </body>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
-            <a class="navbar-brand" href="index.php">Aplikasi Pengaduan Masyarakat</a>
+            <a class="navbar-brand" href="index.php" style="color:#332C39; font: size 30px;">Aplikasi Pengaduan Masyarakat</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -51,9 +51,9 @@
     }
     ?>
 
-    <footer class="footer py-2 bg-light">
+<footer class="footer fixed-bottom pt-2 pb-1 " >
         <div class="container">
-            <p class="text-center">UKK RPL 2023 Alviansyah SMKN 2 MAGELANG</p>
+            <p class="text-center">UKK RPL 2023 Agung SMKN 2 MAGELANG</p>
         </div>
     </footer>
 

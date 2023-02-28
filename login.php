@@ -1,7 +1,7 @@
 <div class="row mt-3">
     <div class="col-md-4 offset-md-4">
         <div class="card">
-        <div class="card-header" style="color: white; background: #4682B4";><h5>LOGIN</h5></div>
+        <div class="card-header" style="color: white; background: #332C39";><h5>LOGIN</h5></div>
             <div class="card-body">
                 <form action="config/aksi_login.php" method="POST">
                     <div class="mb-3">
@@ -14,8 +14,8 @@
                     </div>
                     
             </div>
-            <div class="card-footer">
-                <button type="submit" name="kirim" class="btn btn-primary">LOGIN</button>
+            <div class="card-footer" >
+                <button type="submit" name="kirim" class="btn btn-secondary" style="width: 465px; display:flex; justify-content:center;">LOGIN</button>
                 <p>Belum punya akun? Daftar <a href="index.php?page=registrasi">disini!</a></p>
             </div>
             </form>

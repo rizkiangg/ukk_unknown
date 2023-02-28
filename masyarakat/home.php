@@ -4,7 +4,7 @@
             <p>Selamat Datang</p>
             <?php echo $_SESSION['nama'] ?>
             <div class="card">
-                <div class="card-header">
+                <div class="card-header" style="background-color: #332C39; color:#F0EEED;">
                     FORM PENGADUAN
                 </div>
                 <div class="card-body">
@@ -13,18 +13,20 @@
                             <label class="form-label">JUDUL LAPORAN</label>
                             <input type="text" class="form-control" name="judul_laporan" required>
                         </div>
-                        <div class="mb-3">
-                            <label class="form-label">Isi Laporan</label>
-                            <textarea class="form-control" name="isi_laporan" placeholder="Masukkan Isi Laporan"
-                                required> </textarea>
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Foto</label>
-                            <input type="file" class="form-control" name="foto" required>
+                        <div style="display:flex; justify-content: space-evenly;">
+                            <div class="mb-3" style="width: 600px;">
+                                <label class="form-label">Isi Laporan</label>
+                                <textarea class="form-control" name="isi_laporan" placeholder="Masukkan Isi Laporan"
+                                    required> </textarea>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Foto</label>
+                                <input type="file" class="form-control" name="foto" required>
+                            </div>
                         </div>
                 </div>
                 <div class="card-footer">
-                    <button type="submit" name="kirim" class="btn btn-primary">KIRIM</button>
+                    <button type="submit" name="kirim" class="btn btn-secondary">KIRIM</button>
                     </form>
                     <?php
                     include '../config/koneksi.php';
@@ -56,7 +58,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-12 mt-3">
+        <div class="col-md-12 mb-8 mt-3">
             <div class="card">
                 <div class="card-header">
                     RIWAYAT PENGADUAN
